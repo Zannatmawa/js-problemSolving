@@ -1,0 +1,38 @@
+Day 1 — JavaScript Fundamentals I
+Topic: Variables, Data Types, Functions & Scope
+Q1. What is the difference between var, let, and const in JavaScript?
+Q2. Explain the concept of hoisting in JavaScript.
+Q3. What are the primitive data types in JavaScript?
+Q4. What is the difference between == and === in JavaScript?
+Q5. Explain how closures work in JavaScript with an example.
+Q6. What is the difference between null and undefined?
+Q7. What are arrow functions and how do they differ from regular functions?
+Q8. What is the scope chain in JavaScript?
+Q9. Explain the concept of the temporal dead zone.
+Q10. What is a pure function? Give an example.
+Q11. What is the difference between function declaration and function expression?
+Q12. What are default parameters in JavaScript?
+Q13. What is the typeof operator and what are its possible return values?
+Q14. Explain type coercion in JavaScript with examples.
+Q15. What is an immediately invoked function expression (IIFE)?
+Notes / Answer: Note in doc file
+ 
+ 
+ 
+Day 2 — JavaScript Fundamentals II
+Topic: Arrays, Objects, ES6+ & Async
+Q16. What is destructuring in JavaScript? Explain with array and object examples.
+Q17. What are the spread and rest operators and how are they used?
+Q18. Explain the difference between map(), filter(), and reduce().
+Q19. What is the difference between for...in and for...of loops?
+Q20. What are template literals and tagged templates?
+Q21. What is the event loop in JavaScript?
+Q22. Explain how Promises work in JavaScript.
+Q23. What is async/await and how does it improve upon Promises?
+Q24. What is the difference between call(), apply(), and bind()?
+Q25. What is prototypal inheritance in JavaScript?
+Q26. Explain the concept of this keyword in different contexts.
+Q27. What are JavaScript modules (import/export)?
+Q28. What is the difference between shallow copy and deep copy of objects?
+Q29. What are WeakMap and WeakSet and when would you use them?
+Q30. Explain the concept of memoization with an example. 
