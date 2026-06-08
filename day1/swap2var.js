@@ -8,12 +8,11 @@
 // Hint: Try using destructuring or arithmetic operators.
 
 
-// function swapping(a = 0, b = 0) {
 
-// }
-// swapping(5, 10)
-let a = 5
-let b = 10
-let [a, b] = [b, a];
-console.log(a)
-console.log(b)
+
+function swapping(a = 0, b = 0) {
+    [a, b] = [b, a];
+    console.log(a)
+    console.log(b)
+}
+swapping(5, 10)
