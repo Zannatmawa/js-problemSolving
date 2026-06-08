@@ -3,3 +3,7 @@
 // Example:
 // Input: 3, 7, 5  → Output: 7
 // Hint: Use Math.max() or if-else conditions.
+
+function largestNum() {
+
+}

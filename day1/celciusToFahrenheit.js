@@ -3,3 +3,8 @@
 // Example:
 // Input: 0   → Output: 32Input: 100 → Output: 212
 // Hint: Formula: (C × 9/5) + 32
+function celsius() {
+
+}
+
+celsius()

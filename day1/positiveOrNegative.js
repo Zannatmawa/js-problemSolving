@@ -4,3 +4,14 @@
 // Example:
 // Input: -5  → Output: 'negative'Input: 0   → Output: 'zero'
 // Hint: Use if-else if-else statements.
+
+function positiveOrNegative(value) {
+    if (value < 0) {
+        console.log(`${value} is a negative number`)
+    }
+    else {
+        console.log(`${value} is a positive number`)
+
+    }
+}
+positiveOrNegative(0)
