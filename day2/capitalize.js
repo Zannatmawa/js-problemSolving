@@ -4,3 +4,8 @@
 // Example:
 // Input: 'hello world'  → Output: 'Hello World'
 // Hint: Use split(' '), map(), and join(' ').
+function titleCase(str) {
+    return str.charAt(0).toUpperCase() + str.slice(1)
+}
+
+console.log(titleCase('hello world'))
