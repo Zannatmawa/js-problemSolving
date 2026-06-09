@@ -9,15 +9,12 @@
 
 
 
-// function reverseString(value) {
-//     const strValue = value.split().reverse().join()
-//     console.log(strValue)
-// }
-// reverseString("hello")
+function reverseString(value) {
+    const strValue = value.split().reverse().join()
+}
+console.log(reverseString("hello")
+)
 
-let s = "hello"
-let val = s.split(" ").reverse().join()
-console.log(val)
 
 
 
