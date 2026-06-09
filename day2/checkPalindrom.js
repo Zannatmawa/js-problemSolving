@@ -3,3 +3,8 @@
 // Example:
 // Input: 'racecar'  → Output: trueInput: 'hello'    → Output: false
 // Hint: Compare the string to its reverse.
+function isPalindrome(str) {
+    const reversed = str.split("").reverse().join("")
+    return str === reversed
+}
+console.log(isPalindrome('madam'))
