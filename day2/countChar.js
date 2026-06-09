@@ -3,3 +3,13 @@
 // Example:
 // Input: 'banana', 'a'  → Output: 3
 // Hint: Use split(char).length - 1 or a loop.
+function countChar(str, char) {
+    let count = 0;
+    for (let ch of str) {
+        if (ch === char) {
+            count++
+        }
+    }
+    return count
+}
+console.log(countChar("banana", 'a'))
