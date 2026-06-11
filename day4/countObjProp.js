@@ -7,9 +7,10 @@
 // Hint: Use Object.keys().length.
 
 function countProperties(obj) {
-
+    return Object.keys(obj).length
 }
-countProperties({ a: 1, b: 2, c: 3 })
+console.log(countProperties({ a: 1, b: 2, c: 3 }))
+
 
 
 
