@@ -4,6 +4,9 @@
 // Input: {a: 1, b: 2}  → Output: {1: 'a', 2: 'b'}
 // Hint: Use Object.entries() and reduce().
 function invertObject(obj) {
-
+    return Object.entries(obj).reduce((acc, [keyHandler, value]) => {
+        acc[value] = keyHandler;
+        return acc;
+    })
 }
 invertObject({ a: 1, b: 2 })

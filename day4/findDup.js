@@ -5,11 +5,11 @@
 // Hint: Use a frequency map (object) to count occurrences.
 function findDuplicateNames(arr) {
     let value = arr;
-    // let Duplicate = value.map((v) =>
-    //     console.log(v)
-    // )
-    for (const element of value) {
-        console.log(element)
-    }
+    value.map((v) => {
+        if (v["name"] === 'Ali') {
+            // console.log('ALi')
+            console.log('ALi')
+        }
+    })
 }
 findDuplicateNames([{ name: 'Ali' }, { name: 'Sara' }, { name: 'Ali' }])
