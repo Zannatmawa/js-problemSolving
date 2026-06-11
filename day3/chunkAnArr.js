@@ -4,3 +4,7 @@
 // Example:
 // Input: [1,2,3,4,5], 2  → Output: [[1,2],[3,4],[5]]
 // Hint: Use a while loop with slice().
+function chunkArray(arr, size) {
+
+}
+chunkArray([1, 2, 3, 4, 5])
