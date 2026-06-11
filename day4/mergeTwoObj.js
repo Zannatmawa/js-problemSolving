@@ -4,3 +4,8 @@
 // Input: {a:1}, {b:2}  → Output: {a:1, b:2}
 // Hint: Use the spread operator or Object.assign().
 
+function mergeObjects(obj1, obj2) {
+    const finalObj = { ...obj1, ...obj2 }
+    console.log(finalObj)
+}
+mergeObjects({ a: 1 }, { b: 2 })
