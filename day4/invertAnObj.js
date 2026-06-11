@@ -3,3 +3,7 @@
 // Example:
 // Input: {a: 1, b: 2}  → Output: {1: 'a', 2: 'b'}
 // Hint: Use Object.entries() and reduce().
+function invertObject(obj) {
+
+}
+invertObject({ a: 1, b: 2 })
