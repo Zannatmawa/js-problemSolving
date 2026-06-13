@@ -4,3 +4,8 @@
 // Example:
 // const memoAdd = memoize(n => n + 10);memoAdd(5); // 15 (computed)memoAdd(5); // 15 (from cache)
 // Hint: Use an object as a cache inside the outer function.
+function memoize(fn) {
+
+}
+const memoAdd = memoize(n => n + 10);
+memoAdd(5);
