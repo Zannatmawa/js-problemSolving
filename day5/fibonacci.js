@@ -3,4 +3,14 @@
 // Example:
 // Input: 6  → Output: 8 (0,1,1,2,3,5,8...)
 // Hint: Try both iterative and recursive approaches.
+function fibonacci(n) {
+    let p = 0;
+    let c = 1;
+    for (let i = 2; i <= n i++) {
+        let n = p + c
+        p = c
+        c = n
+    }
+    return c;
+}
 
