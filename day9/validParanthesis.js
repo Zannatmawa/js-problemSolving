@@ -3,3 +3,7 @@
 //     Example:
 // Input: '()[]{}'  → Output: trueInput: '([)]'    → Output: false
 // Hint: Use a stack(array).Push opening brackets, pop and compare for closing ones.
+function isValidParentheses(str) {
+
+}
+isValidParentheses('()[]{}')

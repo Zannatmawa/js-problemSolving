@@ -3,3 +3,10 @@
 //     Example:
 // Input: 'listen', 'silent'  → Output: trueInput: 'hello', 'world'   → Output: false
 // Hint: Sort both strings and compare, or use a character frequency map.
+function isAnagram(str1, str2) {
+    if (str1 === "") {
+
+    } else {
+
+    }
+}
