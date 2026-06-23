@@ -4,3 +4,14 @@
 // Example:
 // const a = { x: { y: 1 } }; const b = deepClone(a); b.x.y = 99;// a.x.y is still 1
 // Hint: Use recursion and check for object / array types.
+function deepClone(obj) {
+    if (obj === null || typeof obj !== "object") {
+        return obj;
+    }
+    const clone = Array.isArray(obj) ? [] : {};
+    for (let key in obj) {
+        clone[key] = deepClone(obj[key]);
+    }
+
+    return clone;
+}
