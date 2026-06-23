@@ -7,7 +7,17 @@
 // Hint: Use clearTimeout and setTimeout.
 //git add . && git commit -m "solving day 7 problem" && git push
 
+function debounce(fn, delay) {
+    let timer;
 
+    return function (...args) {
+        clearTimeout(timer);
+
+        timer = setTimeout(() => {
+            fn(...args);
+        }, delay);
+    };
+}
 
 
 
