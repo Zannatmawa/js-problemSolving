@@ -3,3 +3,15 @@
 //     Example:
 // const throttledScroll = throttle(onScroll, 200);// Fires at most once every 200ms during scroll
 // Hint: Track the last call time with Date.now().
+function throttle(fn, limit) {
+    let lastCall = 0;
+
+    return function (...args) {
+        const now = Date.now();
+
+        if (now - lastCall >= limit) {
+            lastCall = now;
+            fn(...args);
+        }
+    };
+}
