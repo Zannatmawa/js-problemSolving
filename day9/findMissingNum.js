@@ -5,12 +5,11 @@
 // Input: [1, 2, 4, 5], n = 5  → Output: 3
 // Hint: Use the formula: expected sum = n * (n + 1) / 2, then subtract actual sum.
 function findMissing(arr, n) {
-    for (let i = 0; i < arr.length; i++) {
-        const element = arr[i];
-        console.log(element)
-        // if(){
-
-        // }
+    for (let i = 1; i <= n; i++) {
+        if (!arr.includes(i)) {
+            return i;
+        }
     }
 }
-findMissing([1, 2, 4, 5], 5)
+
+console.log(findMissing([1, 2, 4, 5], 5)); // 3
