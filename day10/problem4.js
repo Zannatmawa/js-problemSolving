@@ -28,7 +28,7 @@ function romanToInt(s) {
     return total;
 }
 
-console.log(romanToInt("III"));    // 3
-console.log(romanToInt("IX"));     // 9
-console.log(romanToInt("LVIII"));  // 58
-console.log(romanToInt("MCMXCIV"));// 1994
+console.log(romanToInt("III"));
+console.log(romanToInt("IX"));
+console.log(romanToInt("LVIII"));
+console.log(romanToInt("MCMXCIV"));
