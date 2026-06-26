@@ -20,6 +20,6 @@ function pascalRow(n) {
     return row;
 }
 
-console.log(pascalRow(0)); // [1]
-console.log(pascalRow(3)); // [1, 3, 3, 1]
-console.log(pascalRow(4)); // [1, 4, 6, 4, 1]
+console.log(pascalRow(0));
+console.log(pascalRow(3));
+console.log(pascalRow(4)); 
