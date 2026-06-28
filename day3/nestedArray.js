@@ -5,9 +5,7 @@
 // Hint: Use flat() or reduce() with concat().
 
 function flattenArray(arr) {
-    let value = arr
-    for (let i = 0; i < arr.length; i++) {
-        console.log(arr[i])
-    }
+    return arr.flat();
 }
-flattenArray([1, [2, 3], [4, 5]])
+
+console.log(flattenArray([1, [2, 3], [4, 5]]));
